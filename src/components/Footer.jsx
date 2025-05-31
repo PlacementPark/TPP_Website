@@ -9,7 +9,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">The Placement Park</h3>
             <p className="text-gray-400">
-              Bridging talent with opportunity through innovative recruitment solutions.
+              50-75-27//2, Ganesh Nagar, Seetamma Peta, Satyam Junction, Visakhapatnam, Andhra Pradesh 530016.
+            </p>
+            <br/>
+            <p className="text-gray-400">
+              6th Floor, KSR Towers, beside Indian Oil Petrol Pump, Phase 2, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081.
             </p>
           </div>
           <div>
@@ -28,6 +32,11 @@ export default function Footer() {
               <li>
                 <Link to="/about" className="text-gray-400 hover:text-white transition-colors">
                   About
+                </Link>
+              </li>
+              <li>
+                <Link to="https://tpp-frontend-2-0.onrender.com/login" className="text-gray-400 hover:text-white transition-colors">
+                  Employee Login
                 </Link>
               </li>
             </ul>
