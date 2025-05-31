@@ -1,7 +1,7 @@
 import { Building2, GraduationCap, LineChart, Users } from 'lucide-react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Sharukh from '../assets/Sharukh.png'
+import Sharukh from '../../Public/assets/Sharukh.png'
 
 export default function Home() {
   useEffect(() => {

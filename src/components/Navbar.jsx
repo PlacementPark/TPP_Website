@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import Logo from '../assets/TPP.jpeg'
+import Logo from '../../Public/assets/TPP.jpeg'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)

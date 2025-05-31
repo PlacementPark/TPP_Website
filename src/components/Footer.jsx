@@ -36,7 +36,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/the-placement-park/posts/?feedView=all"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="LinkedIn"
               >
