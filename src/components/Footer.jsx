@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© 2025 The Placement Park. All rights reserved. Developed by Bala Chandrashekhar.</p>
+          <p>© 2025 The Placement Park. All rights reserved. Developed by <a href='https://ghostlanzers.onrender.com/'>GHOSTLANZERS</a>.</p>
         </div>
       </div>
     </footer>
