@@ -11,9 +11,10 @@ export default function Footer() {
             <p className="text-gray-400">
               50-75-27//2, Ganesh Nagar, Seetamma Peta, Satyam Junction, Visakhapatnam, Andhra Pradesh 530016.
             </p>
-            <br/>
+            <br></br>
+            <h3 className="text-s font-semibold mb-4">Contact:</h3>
             <p className="text-gray-400">
-              6th Floor, KSR Towers, beside Indian Oil Petrol Pump, Phase 2, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081.
+              +91 98855 63355
             </p>
           </div>
           <div>
@@ -52,14 +53,7 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={24} />
-              </a>
-              <a
-                href="#"
+                href="https://www.facebook.com/theplacementpark/"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Facebook"
               >
@@ -72,6 +66,14 @@ export default function Footer() {
               >
                 <Instagram size={24} />
               </a>
+              {/* <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Twitter"
+                aria-disabled
+              >
+                <Twitter size={24} />
+              </a> */}
             </div>
           </div>
         </div>
