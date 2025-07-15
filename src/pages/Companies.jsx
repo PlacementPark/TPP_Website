@@ -87,16 +87,17 @@ export default function Companies() {
                 <div className="h-32 w-full bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
                   {company.url ? (
                     <img
+                      className="text-2xl font-bold text-gray-400 h-full w-full object-cover"
                       src={company.url}
                       alt={`${company.name} logo`}
-                      className="h-full w-full object-cover"
+                      //className="h-full w-full object-cover"
                     />
                   ) : (
                     <span className="text-2xl font-bold text-gray-400">{company.name[0]}</span>
                   )}
                 </div>
                 {/* <div className="h-32 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-gray-400"><img src={company.url} alt={`${company.name} logo`}/></span>
+                  <span className="text-2xl font-bold text-gray-400"><img src={company.urll} alt={`${company.name} logo`}/></span>
                 </div> */}
                 <h3 className="text-xl font-semibold mb-2">{company.name}</h3>
                 <p className="text-gray-600">{company.industry}</p>
