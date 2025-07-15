@@ -87,10 +87,10 @@ export default function Companies() {
                 <div className="h-32 w-full bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
                   {company.url ? (
                     <img
+                      style={{alignContent:"center" ,textAlign:"center"}}
                       className="text-2xl font-bold text-gray-400 h-full w-full object-cover"
-                      src={company.url}
-                      alt={`${company.name} logo`}
-                      //className="h-full w-full object-cover"
+                      src={company.urll}
+                      alt={`${company.name}`}
                     />
                   ) : (
                     <span className="text-2xl font-bold text-gray-400">{company.name[0]}</span>
