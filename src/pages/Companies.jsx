@@ -1,46 +1,14 @@
 import { useEffect } from 'react'
 
 const companies = [
-  {
-    name: 'Concentrix',
-    industry: 'Technology',
-    url: '../../Public/assets/Concentrix_logo.jpg',
-  },
-  {
-    name: 'Amazon',
-    industry: 'Healthcare',
-    url: '../../Public/assets/Amazon_Logo.jpg',
-  },
-  {
-    name: 'Tech Mahindra',
-    industry: 'Education',
-    url: '../../Public/assets/Tech_Logo.jpg',
-  },
-  {
-    name: 'Wipro',
-    industry: 'Finance',
-    url: '../../Public/assets/Wipro_Logo.jpg',
-  },
-  {
-    name: 'Sutherland',
-    industry: 'Research & Development',
-    url: '../../Public/assets/Sutherlands_Logo.jpg',
-  },
-  {
-    name: 'Digital Dynamics',
-    industry: 'IT Services',
-    url: '../../Public/assets/GD_Logo.jpg',
-  },
-  {
-    name: 'HGS',
-    industry: 'Healthcare Technology',
-    url: '../../Public/assets/HGS.png',
-  },
-  {
-    name: 'WNS',
-    industry: 'EdTech',
-    url: '../../Public/assets/WNS_Logo.jpg',
-  },
+  { name: 'Concentrix', industry: 'Technology', url: '../../Public/assets/Concentrix_logo.jpg' },
+  { name: 'Amazon', industry: 'Technology and Services', url: '../../Public/assets/Amazon_Logo.jpg' },
+  { name: 'Tech Mahindra', industry: 'IT Services', url: '../../Public/assets/Tech.png' },
+  { name: 'Wipro', industry: 'Technology', url: '../../Public/assets/Wipro_Logo.jpg' },
+  { name: 'Sutherland', industry: 'Research & Development', url: '../../Public/assets/Sutherlands_Logo.jpg' },
+  { name: 'Digital Dynamics', industry: 'Support', url: '../../Public/assets/GD_Logo.jpg' },
+  { name: 'HGS', industry: 'Healthcare Technology', url: '../../Public/assets/HGS.png' },
+  { name: 'WNS', industry: 'EdTech', url: '../../Public/assets/WNS_Logo.jpg' },
 ]
 
 
