@@ -89,7 +89,7 @@ export default function Companies() {
                     <img
                       style={{alignContent:"center" ,textAlign:"center"}}
                       className="text-2xl font-bold text-gray-400 h-full w-full object-cover"
-                      src={company.urll}
+                      src={company.url}
                       alt={`${company.name}`}
                     />
                   ) : (
