@@ -1,15 +1,48 @@
 import { useEffect } from 'react'
 
 const companies = [
-  { name: 'Tech Solutions Inc.', industry: 'Technology' },
-  { name: 'Healthcare Plus', industry: 'Healthcare' },
-  { name: 'EduTech Systems', industry: 'Education' },
-  { name: 'Global Finance Corp', industry: 'Finance' },
-  { name: 'Innovation Labs', industry: 'Research & Development' },
-  { name: 'Digital Dynamics', industry: 'IT Services' },
-  { name: 'MedTech Solutions', industry: 'Healthcare Technology' },
-  { name: 'Future Learning', industry: 'EdTech' },
+  {
+    name: 'Concentrix',
+    industry: 'Technology',
+    url: '../../Public/assets/Concentrix_logo.jpg',
+  },
+  {
+    name: 'Amazon',
+    industry: 'Healthcare',
+    url: '../../Public/assets/Amazon_Logo.jpg',
+  },
+  {
+    name: 'Tech Mahindra',
+    industry: 'Education',
+    url: '../../Public/assets/Tech_Logo.jpg',
+  },
+  {
+    name: 'Wipro',
+    industry: 'Finance',
+    url: '../../Public/assets/Wipro_Logo.jpg',
+  },
+  {
+    name: 'Sutherland',
+    industry: 'Research & Development',
+    url: '../../Public/assets/Sutherlands_Logo.jpg',
+  },
+  {
+    name: 'Digital Dynamics',
+    industry: 'IT Services',
+    url: '../../Public/assets/GD_Logo.jpg',
+  },
+  {
+    name: 'HGS',
+    industry: 'Healthcare Technology',
+    url: '../../Public/assets/HGS.png',
+  },
+  {
+    name: 'WNS',
+    industry: 'EdTech',
+    url: '../../Public/assets/WNS_Logo.jpg',
+  },
 ]
+
 
 export default function Companies() {
   useEffect(() => {
@@ -51,9 +84,20 @@ export default function Companies() {
                 key={index}
                 className="animate-on-scroll opacity-0 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               >
-                <div className="h-32 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-gray-400">{company.name[0]}</span>
+                <div className="h-32 w-full bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                  {company.url ? (
+                    <img
+                      src={company.url}
+                      alt={`${company.name} logo`}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <span className="text-2xl font-bold text-gray-400">{company.name[0]}</span>
+                  )}
                 </div>
+                {/* <div className="h-32 bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
+                  <span className="text-2xl font-bold text-gray-400"><img src={company.url} alt={`${company.name} logo`}/></span>
+                </div> */}
                 <h3 className="text-xl font-semibold mb-2">{company.name}</h3>
                 <p className="text-gray-600">{company.industry}</p>
               </div>
