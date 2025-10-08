@@ -1,6 +1,6 @@
 import { Award, Clock, Users } from 'lucide-react'
 import { useEffect } from 'react'
-import Photo from '/Team.png'
+import Photo from '../../Public/Team.png'
 
 export default function About() {
   useEffect(() => {
